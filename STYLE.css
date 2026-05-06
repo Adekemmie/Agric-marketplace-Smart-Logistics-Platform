@@ -1,0 +1,38 @@
+body{
+  margin:0;
+  font-family:sans-serif;
+  background:#081c15;
+  color:white;
+}
+
+.container{
+  padding:50px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  padding:30px;
+  border-radius:20px;
+  transition:0.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.green{
+  background:rgba(45,198,83,0.2);
+}
+
+.yellow{
+  background:rgba(255,183,3,0.2);
+}
+
+.blue{
+  background:rgba(58,134,255,0.2);
+}
